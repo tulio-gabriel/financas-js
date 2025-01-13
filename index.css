@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif; 
+  }
+  header{
+    background-color: #63b09f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+    height: 18vh;
+  }
+  .container-showvalues{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 60vw;
+    font-size: 12px;
+    position: relative;
+    top: -30px;
+    right: -267px;
+  
+  }
+  .showvalues{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(244, 241, 241);
+  }
+  #total{
+    height: 14vh;
+    padding-bottom: 20px;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -7vh;
+  }
+  .form{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(244, 241, 241);
+    width: 70vw;
+    height: 20vh;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    top:-1vh;
+    right: 17px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 241, 241);
+    width: min-content;
+    height: min-content;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    top:5vh;
+    right: 17px;
+    font-size: 20px;
+    
+  }
+  #butao{
+    width: 120px;
+    height: 40px;
+    background-color: #63b09f;
+    border-radius: 10px;
+    color: white;
+    border:none;
+  }
+  #butao:hover{
+    opacity: 0.8;
+    border: 1px solid black;
+  }
+  
+  table{
+    border-collapse: separate;
+    padding: 10px;
+  }
+  
+  td {
+    min-width: 120px;
+  }
+  
+  th{
+    min-width: 120px;
+    position: relative;
+    right: 12px;
+    padding-bottom: 30px;
+  }
+  .iconetable:hover{
+    opacity: 0.5;
+  }
+  .iconetable{
+    color: red;
+  }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.del{
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    width: 60px;
+    height: 35px;
+}
+.del:hover{
+  opacity: 0.6;
+  border: 1px solid black;
+}
+#btnd{
+  display: none;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.tabela{
+  position: relative;
+  right: -60px;
+}
+td:contains("entrada") {
+  color: rgb(0, 255, 34);
+}
+td:contains("saida") {
+  color: rgb(255, 0, 0);
+}

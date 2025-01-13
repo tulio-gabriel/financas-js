@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>finanças</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gerenciamento financeiro</h1>
+    </header>
+    <div class="container-showvalues">
+      <div class="showvalues" id="entrada">
+        <h2>Entradas</h2>
+        <h1 id="entradasp"></h1>
+      </div>
+      <div class="showvalues" id="saida">
+        <h2>Saidas</h2>
+        <h1 id="saidasp"></h1>
+      </div>
+      <div class="showvalues" id="total">
+        <h2>Total</h2>
+        <h1 id="totalsp"></h1>
+      </div>
+    </div>
+    <div class="form">
+      <label for="descrip"
+        >Descrição:
+        <input type="text" id="descrip" name="descrip" />
+      </label>
+      <label for="value"
+        >Valor:
+        <input type="number" id="value" name="value" />
+      </label>
+      <label for="rad"
+        >Entrada
+        <input type="radio" name="rad" id="radio-entrada" value="entrada" />
+      </label>
+      <label for="rad"
+        >Saida
+        <input type="radio" name="rad" id="radio-saida" value="saida" />
+      </label>
+      <button id="butao">Adicionar</button>
+    </div>
+    <div class="description">
+      <div class="title">
+        <table>
+          <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Tipo</th>
+          </tr>
+        </table>
+      </div>
+      <div class="tabela">
+        <table id="tabl"></table>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
